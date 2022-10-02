@@ -1,12 +1,12 @@
 import turtle
 # import time install turtle by pip
 
-col=('yellow','green','cyan','pink','white','violet','indigo','orange','red')
+col=('yellow','green','cyan','pink','white','violet','indigo','red','orange')
 
 t=turtle.Turtle()
 t.width(3)
 screen=turtle.Screen()
-screen.bgcolor('black')
+screen.bgcolor('violet')
 t.speed(0)
 
 x=1
