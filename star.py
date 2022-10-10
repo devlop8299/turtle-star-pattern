@@ -32,6 +32,7 @@ for i in range(35):
     t.down()
     t.rt(135)
     x=x+4
+    x=x+4
 
 t.up()
 t.goto(-425,-80)
