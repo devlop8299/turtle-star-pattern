@@ -1,8 +1,8 @@
 import turtle
 # import time install turtle by pip
-#The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways.  hgjgj
-#hello 
-col=('yellow','green','cyan','pink','white','violet','indigo','orange','red')
+# The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways.
+
+col=('yellow','green','pink','cyan','white','red','indigo','orange','violet')
 
 t=turtle.Turtle()
 t.width(3)
@@ -38,10 +38,7 @@ t.up()
 t.goto(-425,-80)
 t.down()
 t.pencolor('blue')
-t.write("THANK YOU!",align='left',font=("Comic Sans MS",100,'bold'))
+t.write("THANK YOU!",align='left',font=("Comic Sans MS",80,'bold'))
 t.hideturtle()
-
-# time.sleep(10)
-
 
 turtle.done()
